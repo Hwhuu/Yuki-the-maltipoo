@@ -1,0 +1,22 @@
+
+body { 
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+}
+
+img { 
+    max-width: 300px;
+}
+
+/* nav{
+  position: relative;
+}
+.skip a{ 
+  position: absolute;
+  top: -40px;
+}
+ .skip a:focus { 
+  position: absolute;
+  top: 20px;
+} */
