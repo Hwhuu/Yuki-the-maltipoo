@@ -4,42 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="">
+    <link rel="icon" href="img/Boop.jpg">
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/style.css">
     <title>Pictures of Yuki</title>
 </head>
 <body> 
     <header>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <a href = "index.html"><img src="img/Boop.jpg" alt="Logo"></a>
         <nav>
-            <div class="nav">
-                <ul id = "mylinks">
-                    <li><a href = "index.html">About Yuki</a></li>
-                    <li class="active"><a href = "yuki.html">Pictures of Yuki</a></li>
-                    <li><a href = "food.html">Yuki's Favorite Foods</a></li>
-                </ul>
-              </div>
+            <ul>
+                <li><a href = "index.html">About Yuki</a></li>
+                <li class="active"><a href = "yuki.html">Pictures of Yuki</a></li>
+                <li><a href = "food.html">Favorite Recipes</a></li>
+            </ul>
         </nav>
     </header>
 
     <main class="container" id = "main">
         <h1>Yuki's Pictures</h1>
+        <p><br>My humans love to take pictures of me, look how cute I look!</p>
         <div class = "yukigallery">
-            <img src="img/BirthdayGirl.jpg" alt="Dog with birthday hat">
-            <img src="img/Boop.jpg" alt="Dog booping camera">
-            <img src="img/AfterZoomies.jpg" alt="Dog with tongue out">
-            <img src="img/ChristmasSweater.jpg" alt="Dog with Red Sweater ">
-            <img src="img/SleepyDog.jpg" alt="Sleepy Dog">
-            <img src="img/SittingPolitely.jpg" alt="Dog sitting politely">
-            <img src="img/WokenUp.jpg" alt="Dog woken up">
-            <img src="img/LayingPolitely.jpg" alt="Dog laying down politely">
-            <img src="img/Snoozing.jpg" alt="Dog sleeping soundly">
+
+            <a href = "img/BirthdayGirl.jpg" target="_blank" data-lightbox="Dog" data-title="My sister made me a cake for my second birthday! I also got a party hat!" data-alt="Dog with birthday hat">
+                <img src="img/BirthdayGirl.jpg" width = "200" alt="Dog with birthday hat">
+            </a>
+
+            <a href = "img/Boop.jpg" target="_blank" data-lightbox="Dog" data-title="I will boop you for treats." data-alt="Dog booping camera">
+                <img src= "img/Boop.jpg" width = "200" alt="Dog booping camera">
+            </a>
+
+            <a href = "img/AfterZoomies.jpg" target="_blank" data-lightbox="Dog" data-title="What an exhausting day zooming around the house!" data-alt="Dog with tongue out">
+                <img src= "img/AfterZoomies.jpg" width = "200" alt="Dog with tongue out">
+            </a>
+
+            <a href = "img/ChristmasSweater.jpg" target="_blank" data-lightbox="Dog" data-title="Mom bought me a new sweater for Christmas!" data-alt="Dog with red sweater">
+                <img src= "img/ChristmasSweater.jpg" width = "200" alt="Dog with Red Sweater">
+            </a>
+
+            <a href = "img/SleepyDog.jpg" target="_blank" data-lightbox="Dog" data-title="Man, I'm so sleepy..." data-alt="Sleepy Dog">
+                <img src= "img/SleepyDog.jpg" width = "200" alt="Sleepy Dog">
+            </a>
+
+            <a href = "img/SittingPolitely.jpg" target="_blank" data-lightbox="Dog" data-title="Hello, do you have any treats for me?" data-alt="Dog sitting politely">
+                <img src= "img/SittingPolitely.jpg" width = "200" alt="Dog sitting politely">
+            </a>
+
+            <a href = "img/WokenUp.jpg" target="_blank" data-lightbox="Dog" data-title="#IWokeUpLikeThis" data-alt="Dog woken up">
+                <img src= "img/WokenUp.jpg" width = "200" alt="Dog woken up">
+            </a>
+
+            <a href = "img/LayingPolitely.jpg" target="_blank" data-lightbox="Dog" data-title="Some of that food better be for me!" data-alt="Dog laying down politely">
+                <img src= "img/LayingPolitely.jpg" width = "200" alt="Dog laying down politely">
+            </a>
+
+
+            <a href = "img/Snoozing.jpg" target="_blank" data-lightbox="Dog" data-title="Zzzzzzzzzzz" data-alt="DDog sleeping soundly">
+                <img src= "img/Snoozing.jpg" width = "200" alt="Dog sleeping soundly">
+            </a>
         </div>
     </main>
+    <footer>
+        <div class="footer_icons">
+            <a href="https://www.instagram.com/yukerpooker/">
+                <img src = "img/instagram-logo-svgrepo-com.svg" alt="Instagram Logo">
+            </a>
+        <div>
+        <p>&copy; 2023 Yuki the Maltipoo. All rights reserved.</p>
+    </footer>
     <script src="js/style.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
